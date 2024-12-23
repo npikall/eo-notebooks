@@ -2,7 +2,7 @@
 SHELL = /bin/bash
 .PHONY: help clean environment kernel teardown
 
-YML = env.yml
+YML = eo-env.yml
 REQ = $(basename $(notdir $(YML)))
 BASENAME = $(CURDIR)
 
